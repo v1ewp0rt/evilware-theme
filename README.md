@@ -1,5 +1,5 @@
-![](screenshots/shot3.png)
 ![](screenshots/shot2.png)
+![](screenshots/shot3.png)
 ![](screenshots/shot1.png)
 
 To install, run ./INSTALL.sh (noroot) and follow instructions
