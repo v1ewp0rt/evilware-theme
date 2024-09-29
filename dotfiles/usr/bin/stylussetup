@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Check the devices ID in xinput, and the screens names in xrandr
+# xinput map-to-output "touchDeviceID" screenName
+
+xinput map-to-output "ELAN9009:00 04F3:2F2A Stylus Pen (0)" DP-1
+xinput map-to-output "ELAN9008:00 04F3:2F29 Stylus Pen (0)" eDP-1

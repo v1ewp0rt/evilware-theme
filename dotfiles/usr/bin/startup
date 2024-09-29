@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Setup touchscreen with xinput (check xinput for devices ID and xrandr for screen names)
+xinput map-to-output "ELAN9008:00 04F3:2F29" eDP-1
+xinput map-to-output "ELAN9009:00 04F3:2F2A" DP-1
+
+edex-start # Runs edex-ui and sticks it to every desktop
+
+# Move cursor to second screen (Change "DP-1" to your screen name, you can see it in xrandr command)
+awesome-client 'for s in screen do for out,_ in pairs(s.outputs) do if out == "DP-1" then mouse.screen=s end end end'
+
+# Run apps
+mplayer ~/screen.mp4 # Plays the second screen animation
+# There's 2 wallpaper paths for both screens, add as many as you want in the line below
+feh --bg-scale /home/$USER/screen1.png /home/$USER/screen2.png 
+kitty cmatrix -u 2 -a -b & # Runs cmatrix
+sleep 0.5 
+pcmanfm & # Runs file explorer

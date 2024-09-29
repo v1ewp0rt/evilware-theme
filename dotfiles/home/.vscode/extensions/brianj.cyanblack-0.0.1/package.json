@@ -1,0 +1,37 @@
+{
+	"name": "CyanBlack",
+	"displayName": "Cyan Black",
+	"description": "Cyan and Black Theme",
+	"version": "0.0.1",
+	"publisher": "BrianJ",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"keywords": [
+		"theme",
+		"Cyan Black",
+		"Brian's Theme"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "First",
+				"uiTheme": "vs-dark",
+				"path": "./themes/First-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8e6810fb-2545-4a56-a064-cf53e8aa0b6b",
+		"publisherId": "1559a8fe-57cb-4c17-ab51-554318b73b80",
+		"publisherDisplayName": "BrianJ",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707763812406
+	}
+}

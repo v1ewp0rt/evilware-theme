@@ -1,0 +1,6 @@
+#!/bin/bash
+
+edex-ui --no-sandbox &
+sleep 3
+awesome-client 'client.focus.below = true'
+sleep 1

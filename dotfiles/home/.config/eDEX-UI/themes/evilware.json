@@ -1,0 +1,44 @@
+{
+    "colors": {
+        "r": 0,
+        "g": 225,
+        "b": 255,
+        "black": "#000000",
+        "light_black": "#000000",
+        "grey": "#253337",
+        "red": "#ff002c",
+        "green": "#00faff",
+        "yellow": "#ff002c",
+        "blue": "#00faff",
+        "magenta": "#ff002c",
+        "cyan": "#00faff",
+        "white": "#ffffff",
+        "brightBlack": "#000000",
+        "brightRed": "#f10042",
+        "brightGreen": "#00ffe1",
+        "brightYellow": "#f10042",
+        "brightBlue": "#00ffe1",
+        "brightMagenta": "#f10042",
+        "brightCyan": "#00ffe1",
+        "brightWhite": "#ffd4ee"
+    },
+    "cssvars": {
+        "font_main": "Terminess Nerd Font",
+        "font_main_light": "Terminess Nerd Font"
+    },
+    "terminal": {
+        "fontFamily": "Terminess Nerd Font",
+        "cursorStyle": "block",
+        "foreground": "#00faff",
+        "background": "#000000",
+        "cursor": "#f10042",
+        "cursorAccent": "#f10042",
+        "selection": "#072025"
+    },
+    "globe": {
+        "base": "#00faff",
+        "marker": "#ff0000",
+        "pin": "#00faff",
+        "satellite": "#ff0000"
+    }
+}
