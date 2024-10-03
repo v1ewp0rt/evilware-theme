@@ -4,7 +4,7 @@
 
 To install, run ./INSTALL.sh (noroot) and follow instructions
 
-*ONLY TESTED IN ARCH LINUX AND DEBIAN 12 (X11)*
+*ONLY TESTED IN ARCH LINUX AND DEBIAN 12 (Xorg)*
 
 If you want to change something after the installation:
 
